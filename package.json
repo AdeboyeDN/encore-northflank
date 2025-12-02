@@ -6,8 +6,7 @@
   "license": "MPL-2.0",
   "type": "module",
   "scripts": {
-    "test": "vitest",
-    "build": "tsc"
+    "test": "vitest"
   },
   "devDependencies": {
     "@types/node": "^20.5.7",

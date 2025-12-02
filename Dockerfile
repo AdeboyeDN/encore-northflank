@@ -11,4 +11,4 @@ COPY . .
 
 EXPOSE 4000
 
-CMD ["encore", "run", "--prod"]
+CMD ["encore", "run", "--watch=false", "--port=4000", "--listen=0.0.0.0:4000"]
